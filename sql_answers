@@ -1,0 +1,30 @@
+1. SELECT * FROM robots
+WHERE source = ‘The Hitchhiker’‘s Guide to the Galaxy’;
+
+2. SELECT * FROM robots
+intro_to_sql-# WHERE personality = ‘anxious’;
+
+3. intro_to_sql=# SELECT * FROM recipes
+intro_to_sql-# WHERE nut_free=TRUE;
+
+4. intro_to_sql=# SELECT COUNT(name) FROM recipes WHERE gluten_free=TRUE AND vegetarian=FALSE;
+
+5. SELECT MAX(number_of_legs) AS LargestNumber_of_legs FROM animals;
+
+6. SELECT MIN(mins_to_play) AS SmallestMins_to_play FROM board_games;
+
+7. SELECT MAX(minutes_required) AS LargestMinutes_required FROM recipes;
+
+8. SELECT name FROM robots WHERE name LIKE ‘M%‘;
+
+9. SELECT COUNT(name) FROM board_games WHERE max_players >=8 AND min_players<=8;
+
+10. intro_to_sql=# SELECT name
+intro_to_sql-# FROM animals
+intro_to_sql-# WHERE swimming=TRUE and egg_laying=TRUE;
+
+11. intro_to_sql=# SELECT name
+intro_to_sql-# FROM animals
+intro_to_sql-# WHERE swimming=TRUE and egg_laying=TRUE and flying=FALSE;
+
+12. intro_to_sql=# SELECT MAX(max_players) AS LargestMax_players FROM board_games;
